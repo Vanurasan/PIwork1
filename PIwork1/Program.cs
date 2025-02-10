@@ -12,9 +12,9 @@ namespace PIwork1
         //Задание 1 Вариант 9
         //Учебные занятия: дата, название аудитории (строка в характерном формате), имя преподавателя(строка)
         public class Lesson {
-            private DateTime date { get; set; }
-            private string room { get; set; }
-            private string teacher { get; set; }
+            protected DateTime date { get; set; }
+            protected string room { get; set; }
+            protected string teacher { get; set; }
 
             public virtual void Read(string[] words) { }
             public virtual void Write() { }
@@ -25,15 +25,33 @@ namespace PIwork1
         {
             private int numberOfTasks { get; set; }
 
-            public override void Read(string[] words) { }
-            public override void Write() { }
+            public override void Read(string[] words) 
+            {
+                date = DateTime.Parse(words[1]);
+                room = words[2];
+                teacher = words[3];
+                numberOfTasks = Convert.ToInt32(words[4]);
+            }
+            public override void Write() 
+            {
+                Console.WriteLine("Практическое занятие "+date+" Кабинет:"+room+" Педагог:"+teacher+" Количество запланированных задач:"+numberOfTasks);
+            }
         }
         public class Lab : Lesson 
         {
             private string equipment { get; set; }
 
-            public override void Read(string[] words) { }
-            public override void Write() { }
+            public override void Read(string[] words) 
+            {
+                date = DateTime.Parse(words[1]);
+                room = words[2];
+                teacher = words[3];
+                equipment = words[4];
+            }
+            public override void Write() 
+            {
+                Console.WriteLine("Практическое занятие " + date + " Кабинет:" + room + " Педагог:" + teacher + " Необходимая экиперовка:" + equipment);
+            }
 
         }
         public class Lecture : Lesson 
@@ -42,10 +60,15 @@ namespace PIwork1
 
             public override void Read(string[] words) 
             {
-                //Lecture.date = DateTime.Parse(words[1]);
-
+                date = DateTime.Parse(words[1]);
+                room = words[2];
+                teacher = words[3];
+                numberOfGroups = Convert.ToInt32(words[4]);
             }
-            public override void Write() { }
+            public override void Write() 
+            {
+                Console.WriteLine("Практическое занятие " + date + " Кабинет:" + room + " Педагог:" + teacher + " Количество групп:" + numberOfGroups);
+            }
         }
 
         static void Main(string[] args)
