@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,44 +12,70 @@ namespace PIwork1
         //Задание 1 Вариант 9
         //Учебные занятия: дата, название аудитории (строка в характерном формате), имя преподавателя(строка)
         public class Lesson {
-            public DateTime date { get; set; }
-            public string room { get; set; }
-            public string teacher { get; set; }
+            private DateTime date { get; set; }
+            private string room { get; set; }
+            private string teacher { get; set; }
 
-            public virtual void Read() { }
+            public virtual void Read(string[] words) { }
             public virtual void Write() { }
 
         }
 
         public class Practice : Lesson
         {
-            public int numberOfTasks { get; set; }
+            private int numberOfTasks { get; set; }
 
-            public override void Read() { }
+            public override void Read(string[] words) { }
             public override void Write() { }
         }
         public class Lab : Lesson 
         {
-            public string equipment { get; set; }
+            private string equipment { get; set; }
 
-            public override void Read() { }
+            public override void Read(string[] words) { }
             public override void Write() { }
 
         }
         public class Lecture : Lesson 
         {
-            public int numberOfGroups { get; set; }
+            private int numberOfGroups { get; set; }
 
-            public override void Read() { }
+            public override void Read(string[] words) 
+            {
+                //Lecture.date = DateTime.Parse(words[1]);
+
+            }
             public override void Write() { }
         }
 
         static void Main(string[] args)
         {
             Lesson[] lessons = new Lesson[] { };
-            while (true) 
+            StreamReader f = new StreamReader("test.txt");
+            while (!f.EndOfStream)
             {
+                string s = f.ReadLine();
+                string[] words = s.Split();
+                switch (words[0])
+                {
+                    case "Лекция":
 
+                        Lecture lecture = new Lecture();
+                        lecture.Read(words);
+                        break;
+                    case "Практика":
+                        Practice practice = new Practice();
+                        practice.Read(words);
+                        break;
+                    case "Лабораторная":
+                        Lab lab = new Lab();
+                        lab.Read(words);
+                        break;
+                    default:
+                        Console.WriteLine("Конец файла");
+                        break;
+
+                }
             }
 
         }
