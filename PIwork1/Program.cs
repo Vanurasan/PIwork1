@@ -82,24 +82,27 @@ namespace PIwork1
                 switch (words[0])
                 {
                     case "Лекция":
-
                         Lecture lecture = new Lecture();
                         lecture.Read(words);
+                        lessons.Append(lecture);
                         break;
                     case "Практика":
                         Practice practice = new Practice();
                         practice.Read(words);
+                        lessons.Append(practice);
                         break;
                     case "Лабораторная":
                         Lab lab = new Lab();
                         lab.Read(words);
+                        lessons.Append(lab);
                         break;
                     default:
-                        Console.WriteLine("Конец файла");
+                        Console.WriteLine("Неправильный тип строки");
                         break;
 
                 }
             }
+
 
         }
     }
