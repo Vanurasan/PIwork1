@@ -1,109 +1,115 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PIwork1
 {
     internal class Program
     {
-        //Задание 1 Вариант 9
-        //Учебные занятия: дата, название аудитории (строка в характерном формате), имя преподавателя(строка)
-        public class Lesson {
+        public class Lesson
+        {
             protected DateTime date { get; set; }
             protected string room { get; set; }
             protected string teacher { get; set; }
 
             public virtual void Read(string[] words) { }
             public virtual void Write() { }
-
         }
 
         public class Practice : Lesson
         {
-            private int numberOfTasks { get; set; }
+            protected int numberOfTasks { get; set; }
 
-            public override void Read(string[] words) 
+            public override void Read(string[] words)
             {
                 date = DateTime.Parse(words[1]);
                 room = words[2];
-                teacher = words[3];
-                numberOfTasks = Convert.ToInt32(words[4]);
+                teacher = words[3] + " " + words[4];
+                //numberOfTasks = Convert.ToInt32(words[5]);
             }
-            public override void Write() 
+
+            public override void Write()
             {
-                Console.WriteLine("Практическое занятие "+date+" Кабинет:"+room+" Педагог:"+teacher+" Количество запланированных задач:"+numberOfTasks);
+                Console.WriteLine($"Практическое занятие {date} Кабинет: {room} Педагог: {teacher} Количество задач: {numberOfTasks}");
             }
         }
-        public class Lab : Lesson 
-        {
-            private string equipment { get; set; }
 
-            public override void Read(string[] words) 
+        public class Lab : Lesson
+        {
+            protected string equipment { get; set; }
+
+            public override void Read(string[] words)
             {
                 date = DateTime.Parse(words[1]);
                 room = words[2];
-                teacher = words[3];
-                equipment = words[4];
-            }
-            public override void Write() 
-            {
-                Console.WriteLine("Практическое занятие " + date + " Кабинет:" + room + " Педагог:" + teacher + " Необходимая экиперовка:" + equipment);
+                teacher = words[3] + " " + words[4];
+                //equipment = words[5];
             }
 
+            public override void Write()
+            {
+                Console.WriteLine($"Лабораторная работа {date} Кабинет: {room} Педагог: {teacher} Экипировка: {equipment}");
+            }
         }
-        public class Lecture : Lesson 
-        {
-            private int numberOfGroups { get; set; }
 
-            public override void Read(string[] words) 
+        public class Lecture : Lesson
+        {
+            protected int numberOfGroups { get; set; }
+
+            public override void Read(string[] words)
             {
                 date = DateTime.Parse(words[1]);
                 room = words[2];
-                teacher = words[3];
-                numberOfGroups = Convert.ToInt32(words[4]);
+                teacher = words[3] + " " + words[4];
+                //numberOfGroups = Convert.ToInt32(words[5]);
             }
-            public override void Write() 
+
+            public override void Write()
             {
-                Console.WriteLine("Практическое занятие " + date + " Кабинет:" + room + " Педагог:" + teacher + " Количество групп:" + numberOfGroups);
+                Console.WriteLine($"Лекция {date} Кабинет: {room} Педагог: {teacher} Количество групп: {numberOfGroups}");
             }
         }
 
         static void Main(string[] args)
         {
-            Lesson[] lessons = new Lesson[] { };
-            StreamReader f = new StreamReader("test.txt");
+            List<Lesson> lessons = new List<Lesson>();
+            StreamReader f = new StreamReader("C:\\Users\\Vanur\\OneDrive\\Рабочий стол\\test.txt");
+
             while (!f.EndOfStream)
             {
                 string s = f.ReadLine();
                 string[] words = s.Split();
+
                 switch (words[0])
                 {
                     case "Лекция":
-                        Lecture lecture = new Lecture();
+                        var lecture = new Lecture();
                         lecture.Read(words);
-                        lessons.Append(lecture);
+                        lessons.Add(lecture);
                         break;
                     case "Практика":
-                        Practice practice = new Practice();
+                        var practice = new Practice();
                         practice.Read(words);
-                        lessons.Append(practice);
+                        lessons.Add(practice);
                         break;
                     case "Лабораторная":
-                        Lab lab = new Lab();
+                        var lab = new Lab();
                         lab.Read(words);
-                        lessons.Append(lab);
+                        lessons.Add(lab);
                         break;
-                    default:
-                        Console.WriteLine("Неправильный тип строки");
-                        break;
-
                 }
             }
 
+            f.Close(); // Закрываем файл после чтения
 
+            Console.WriteLine("Файл прочитан\n");
+
+            foreach (var lesson in lessons)
+            {
+                lesson.Write(); // Вызываем Write() у всех объектов
+            }
+
+            Console.ReadLine();
         }
     }
 }
