@@ -25,7 +25,7 @@ namespace PIwork1
                 date = DateTime.Parse(words[1]);
                 room = words[2];
                 teacher = words[3] + " " + words[4];
-                //numberOfTasks = Convert.ToInt32(words[5]);
+                numberOfTasks = Convert.ToInt32(words[5]);
             }
 
             public override void Write()
@@ -43,7 +43,7 @@ namespace PIwork1
                 date = DateTime.Parse(words[1]);
                 room = words[2];
                 teacher = words[3] + " " + words[4];
-                //equipment = words[5];
+                equipment = words[5];
             }
 
             public override void Write()
@@ -61,7 +61,7 @@ namespace PIwork1
                 date = DateTime.Parse(words[1]);
                 room = words[2];
                 teacher = words[3] + " " + words[4];
-                //numberOfGroups = Convert.ToInt32(words[5]);
+                numberOfGroups = Convert.ToInt32(words[5]);
             }
 
             public override void Write()
@@ -73,6 +73,7 @@ namespace PIwork1
         static void Main(string[] args)
         {
             List<Lesson> lessons = new List<Lesson>();
+            //ПОМЕНЯТЬ АДРЕС ЧИТАЕМОГО ФАЙЛА
             StreamReader f = new StreamReader("C:\\Users\\Vanur\\OneDrive\\Рабочий стол\\test.txt");
 
             while (!f.EndOfStream)
