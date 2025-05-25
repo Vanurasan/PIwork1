@@ -1,0 +1,27 @@
+﻿<Window x:Class="LessonViewer.AddLessonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить урок" Height="300" Width="400">
+    <StackPanel Margin="20">
+        <TextBlock Text="Тип урока:" />
+        <ComboBox x:Name="LessonTypeComboBox" SelectedIndex="0">
+            <ComboBoxItem Content="Лекция" />
+            <ComboBoxItem Content="Практика" />
+            <ComboBoxItem Content="Лабораторная" />
+        </ComboBox>
+        
+        <TextBlock Text="Дата (гггг.мм.дд):"/>
+        <TextBox x:Name="DateBox"/>
+
+        <TextBlock Text="Аудитория:"/>
+        <TextBox x:Name="RoomBox"/>
+
+        <TextBlock Text="Преподаватель:" />
+        <TextBox x:Name="TeacherBox"/>
+
+        <TextBlock Text="Доп. поле (число групп / число заданий / оборудование):"/>
+        <TextBox x:Name="ExtraBox"/>
+
+        <Button Content="Добавить" Click="Add_Click" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+    </StackPanel>
+</Window>

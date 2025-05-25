@@ -1,0 +1,11 @@
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\LessonLibrary.deps.json
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\LessonLibrary.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\LessonLibrary.pdb
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.AssemblyInfoInputs.cache
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.AssemblyInfo.cs
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\refint\LessonLibrary.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.pdb
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\ref\LessonLibrary.dll
