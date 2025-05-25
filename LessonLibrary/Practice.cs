@@ -7,12 +7,9 @@ namespace LessonLibrary
     {
         public int NumberOfTasks { get; protected set; }
 
-        public override void Read(string[] words)
+        public Practice(DateTime date, string room, string teacher, int number) : base(date, room, teacher)
         {
-            Date = DateTime.Parse(words[1]);
-            Room = words[2];
-            Teacher = words[3] + " " + words[4];
-            NumberOfTasks = Convert.ToInt32(words[5]);
+            NumberOfTasks = number;
         }
 
         public override string ToText()

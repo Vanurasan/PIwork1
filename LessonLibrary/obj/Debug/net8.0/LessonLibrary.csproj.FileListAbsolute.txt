@@ -9,3 +9,4 @@ C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\D
 C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\refint\LessonLibrary.dll
 C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.pdb
 C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\ref\LessonLibrary.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.sourcelink.json

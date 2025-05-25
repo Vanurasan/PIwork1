@@ -23,63 +23,20 @@ namespace LessonViewer
                 string room = RoomBox.Text.Trim();
                 string teacher = TeacherBox.Text.Trim();
                 string extra = ExtraBox.Text.Trim();
+                string date = DateBox.Text.Trim();
 
-                if (!DateTime.TryParse(DateBox.Text, out DateTime date))
-                {
-                    MessageBox.Show("Введите корректную дату в формате ГГГГ.ММ.ДД (например, 2025.02.05)");
-                    return;
-                }
+                ResultLesson = LessonFactory.CreateLesson(type, date, room, teacher, extra);
 
-                if (string.IsNullOrWhiteSpace(type) || string.IsNullOrWhiteSpace(room) ||
-                    string.IsNullOrWhiteSpace(teacher) || string.IsNullOrWhiteSpace(extra))
-                {
-                    MessageBox.Show("Заполните все поля.");
-                    return;
-                }
 
-                string outputstring = $"заглушка {date:yyyy.MM.dd} {room} {teacher} {extra}";
-                string[] words = outputstring.Split();
-
-                switch (type.ToLower())
-                {
-                    case "лекция":
-                        if (!int.TryParse(extra, out int groups))
-                        {
-                            MessageBox.Show("Введите число групп.");
-                            return;
-                        }
-
-                        ResultLesson = new Lecture();
-                        break;
-
-                    case "практика":
-                        if (!int.TryParse(extra, out int tasks))
-                        {
-                            MessageBox.Show("Введите число заданий.");
-                            return;
-                        }
-
-                        ResultLesson = new Practice();
-                        break;
-
-                    case "лабораторная":
-                        
-                        ResultLesson = new Lab();
-                        break;
-
-                    default:
-                        MessageBox.Show("Неизвестный тип занятия.");
-                        return;
-                }
-
-                ResultLesson.Read(words);
-                 
-                DialogResult = true;
-                Close();
+                this.DialogResult = true;  // закрыть окно или сбросить поля
             }
-            catch
+            catch (ArgumentException ex)
             {
-                MessageBox.Show("Ошибка при создании урока.");
+                MessageBox.Show(ex.Message, "Ошибка ввода", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Произошла непредвиденная ошибка: " + ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

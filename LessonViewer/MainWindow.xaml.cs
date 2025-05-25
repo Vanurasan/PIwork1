@@ -30,7 +30,7 @@ namespace LessonViewer
                 try
                 {
                     currentFilePath = dialog.FileName;
-                    var loadedLessons = Parser.ParseFromFile(currentFilePath);
+                    var loadedLessons = FileWorks.ParseFromFile(currentFilePath);
                     lessons.Clear();
                     foreach (var lesson in loadedLessons)
                         lessons.Add(lesson);
@@ -67,38 +67,15 @@ namespace LessonViewer
 
             try
             {
-                var lines = new List<string>();
-                foreach (var lesson in lessons)
-                {
-                    string type = lesson switch
-                    {
-                        Lecture => "Лекция",
-                        Practice => "Практика",
-                        Lab => "Лабораторная",
-                        _ => "Неизвестно"
-                    };
-
-                    string line = type + " " + lesson.Date.ToString("yyyy.MM.dd") + " " +
-                                  lesson.Room + " " + lesson.Teacher + " ";
-
-                    if (lesson is Lecture l)
-                        line += l.NumberOfGroups;
-                    else if (lesson is Practice p)
-                        line += p.NumberOfTasks;
-                    else if (lesson is Lab lab)
-                        line += lab.Equipment;
-
-                    lines.Add(line);
-                }
-
-                File.WriteAllLines(currentFilePath, lines);
+                FileWorks.Save(currentFilePath, lessons);
                 MessageBox.Show("Файл успешно сохранён.");
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Ошибка при сохранении файла.");
+                MessageBox.Show("Ошибка при сохранении файла: " + ex.Message);
             }
         }
+
 
     }
 }

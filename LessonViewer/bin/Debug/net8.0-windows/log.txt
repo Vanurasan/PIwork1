@@ -1,0 +1,2 @@
+2025-05-25 21:43:55 - INFO: Файл успешно сохранён
+2025-05-25 21:46:06 - ERROR: Ошибка разбора строки: Index was outside the bounds of the array.
