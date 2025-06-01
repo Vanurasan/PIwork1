@@ -92,7 +92,7 @@ namespace LessonViewer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/LessonViewer;component/addlessonwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/LessonViewer;V1.0.0.0;component/addlessonwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddLessonWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

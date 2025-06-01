@@ -46,6 +46,21 @@ namespace LessonLibrary
 
         }
 
+        public static Lesson CreateLessonFromCsvParts(string[] parts)
+        {
+            if (parts.Length < 5)
+                Logger.LogError("Недостаточно данных для создания урока.");
+
+            string type = parts[0];
+            string date = parts[1];
+            string room = parts[2];
+            string teacher = parts[3];
+            string extra = parts[4];
+
+            return LessonFactory.CreateLesson(type, date, room, teacher, extra);
+        }
+
+
         public static void Save(string filePath, IEnumerable<Lesson> lessons)
         {
             if (string.IsNullOrEmpty(filePath))

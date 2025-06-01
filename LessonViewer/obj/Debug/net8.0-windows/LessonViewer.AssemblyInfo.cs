@@ -14,10 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LessonViewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b909790acdd81808e1c0ab0e2e8aba79553ee42f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81375ff68b747e3ceaf6cac7a9eb940bf2c7541c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LessonViewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LessonViewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadata("Microsoft.Testing.Platform.Application", "True")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 

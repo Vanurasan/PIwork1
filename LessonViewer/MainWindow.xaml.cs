@@ -76,6 +76,25 @@ namespace LessonViewer
             }
         }
 
+        private void ExecuteCommands_Click(object sender, RoutedEventArgs e)
+        {
+            var openFileDialog = new Microsoft.Win32.OpenFileDialog
+            {
+                Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*"
+            };
 
+            if (openFileDialog.ShowDialog() == true)
+            {
+                try
+                {
+                    CommandProcessor.Execute(currentFilePath, openFileDialog.FileName, lessons);
+                    MessageBox.Show("Команды успешно выполнены.");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ошибка при выполнении команд: " + ex.Message);
+                }
+            }
+        }
     }
 }

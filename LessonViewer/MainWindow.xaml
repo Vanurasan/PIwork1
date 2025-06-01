@@ -9,6 +9,7 @@
             <Button Content="Добавить урок" Click="AddLesson_Click" Margin="5"/>
             <Button Content="Удалить выбранный" Click="DeleteLesson_Click" Margin="5"/>
             <Button Content="Сохранить" Click="SaveFile_Click" Margin="5"/>
+            <Button Content="Выполнить команды" Click="ExecuteCommands_Click" Margin="5"/>
         </StackPanel>
 
         <!-- Список уроков -->
