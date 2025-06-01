@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\fileworks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\fileworks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\commandprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\commandprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\addlesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\addlesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0534FE00-9371-4E17-A778-B516F36E4487}|LessonLibrary.Tests\\LessonLibrary.Tests.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary.tests\\addlessontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0534FE00-9371-4E17-A778-B516F36E4487}|LessonLibrary.Tests\\LessonLibrary.Tests.csproj|solutionrelative:lessonlibrary.tests\\addlessontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0534FE00-9371-4E17-A778-B516F36E4487}|LessonLibrary.Tests\\LessonLibrary.Tests.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary.tests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0534FE00-9371-4E17-A778-B516F36E4487}|LessonLibrary.Tests\\LessonLibrary.Tests.csproj|solutionrelative:lessonlibrary.tests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\fileworks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\fileworks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{533A7555-D863-4C01-9FFC-82CFE75D62D1}|LessonViewer\\LessonViewer.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,28 +51,12 @@
       "RelativeMoniker": "D:0:0:{533A7555-D863-4C01-9FFC-82CFE75D62D1}|LessonViewer\\LessonViewer.csproj|solutionrelative:lessonviewer\\addlessonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\addlesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\addlesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{533A7555-D863-4C01-9FFC-82CFE75D62D1}|LessonViewer\\LessonViewer.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonviewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{533A7555-D863-4C01-9FFC-82CFE75D62D1}|LessonViewer\\LessonViewer.csproj|solutionrelative:lessonviewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{533A7555-D863-4C01-9FFC-82CFE75D62D1}|LessonViewer\\LessonViewer.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonviewer\\addlessonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{533A7555-D863-4C01-9FFC-82CFE75D62D1}|LessonViewer\\LessonViewer.csproj|solutionrelative:lessonviewer\\addlessonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonlibrary\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F2F857-7EF9-D352-8CD1-5A8EE56244B0}|LessonLibrary\\LessonLibrary.csproj|solutionrelative:lessonlibrary\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{533A7555-D863-4C01-9FFC-82CFE75D62D1}|LessonViewer\\LessonViewer.csproj|c:\\users\\vanur\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lessonviewer\\lessonviewer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -62,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,33 +78,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "AddLessonTests.cs",
+              "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary.Tests\\AddLessonTests.cs",
+              "RelativeDocumentMoniker": "LessonLibrary.Tests\\AddLessonTests.cs",
+              "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary.Tests\\AddLessonTests.cs",
+              "RelativeToolTip": "LessonLibrary.Tests\\AddLessonTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T22:29:42.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary.Tests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "LessonLibrary.Tests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary.Tests\\MSTestSettings.cs",
+              "RelativeToolTip": "LessonLibrary.Tests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T22:29:23.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CommandProcessor.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\CommandProcessor.cs",
               "RelativeDocumentMoniker": "LessonLibrary\\CommandProcessor.cs",
               "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\CommandProcessor.cs",
               "RelativeToolTip": "LessonLibrary\\CommandProcessor.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwB8AAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwB8AAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T16:35:58.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "AddLesson.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\AddLesson.cs",
               "RelativeDocumentMoniker": "LessonLibrary\\AddLesson.cs",
               "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\AddLesson.cs",
               "RelativeToolTip": "LessonLibrary\\AddLesson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T14:14:15.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Lab.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\Lab.cs",
               "RelativeDocumentMoniker": "LessonLibrary\\Lab.cs",
@@ -109,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Practice.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\Practice.cs",
               "RelativeDocumentMoniker": "LessonLibrary\\Practice.cs",
@@ -122,19 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddLessonWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\AddLessonWindow.xaml",
-              "RelativeDocumentMoniker": "LessonViewer\\AddLessonWindow.xaml",
-              "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\AddLessonWindow.xaml",
-              "RelativeToolTip": "LessonViewer\\AddLessonWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T11:55:15.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Lesson.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\Lesson.cs",
               "RelativeDocumentMoniker": "LessonLibrary\\Lesson.cs",
@@ -147,44 +169,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "FileWorks.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\FileWorks.cs",
               "RelativeDocumentMoniker": "LessonLibrary\\FileWorks.cs",
               "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\FileWorks.cs",
               "RelativeToolTip": "LessonLibrary\\FileWorks.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAcwD8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T10:59:52.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\App.xaml",
               "RelativeDocumentMoniker": "LessonViewer\\App.xaml",
               "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\App.xaml",
               "RelativeToolTip": "LessonViewer\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T10:55:10.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T10:55:10.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "LessonViewer\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\MainWindow.xaml",
               "RelativeToolTip": "LessonViewer\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T10:34:52.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T10:34:52.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "LessonViewer\\MainWindow.xaml.cs",
@@ -192,12 +212,35 @@
               "RelativeToolTip": "LessonViewer\\MainWindow.xaml.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAwwFgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:34:52.208Z",
+              "WhenOpened": "2025-05-25T10:34:52.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lecture.cs",
+              "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\Lecture.cs",
+              "RelativeDocumentMoniker": "LessonLibrary\\Lecture.cs",
+              "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\Lecture.cs",
+              "RelativeToolTip": "LessonLibrary\\Lecture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:11:14.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
+              "Title": "AddLessonWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\AddLessonWindow.xaml",
+              "RelativeDocumentMoniker": "LessonViewer\\AddLessonWindow.xaml",
+              "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\AddLessonWindow.xaml",
+              "RelativeToolTip": "LessonViewer\\AddLessonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-25T11:55:15.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AddLessonWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonViewer\\AddLessonWindow.xaml.cs",
               "RelativeDocumentMoniker": "LessonViewer\\AddLessonWindow.xaml.cs",
@@ -205,12 +248,11 @@
               "RelativeToolTip": "LessonViewer\\AddLessonWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:55:38.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:55:38.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Logger.cs",
               "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\Logger.cs",
               "RelativeDocumentMoniker": "LessonLibrary\\Logger.cs",
@@ -218,21 +260,7 @@
               "RelativeToolTip": "LessonLibrary\\Logger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:45:00.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Lecture.cs",
-              "DocumentMoniker": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\Lecture.cs",
-              "RelativeDocumentMoniker": "LessonLibrary\\Lecture.cs",
-              "ToolTip": "C:\\Users\\Vanur\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LessonViewer\\LessonLibrary\\Lecture.cs",
-              "RelativeToolTip": "LessonLibrary\\Lecture.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:11:14.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:45:00.102Z"
             }
           ]
         }

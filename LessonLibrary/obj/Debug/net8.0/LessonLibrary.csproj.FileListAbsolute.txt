@@ -10,3 +10,10 @@ C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\D
 C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.pdb
 C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\ref\LessonLibrary.dll
 C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.sourcelink.json
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\nunit.engine.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\nunit.engine.api.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\nunit.engine.core.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\testcentric.engine.metadata.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\bin\Debug\net8.0\NUnit3.TestAdapter.dll
+C:\Users\Vanur\OneDrive\Рабочий стол\LessonViewer\LessonLibrary\obj\Debug\net8.0\LessonLibrary.csproj.AssemblyReference.cache
